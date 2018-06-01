@@ -1,0 +1,86 @@
+.popup {
+  position: fixed;
+  top: 10%;
+  left: 100%;
+  display: block;
+  width: calc(100% - 100px);
+  background-color: #fff;
+  color: #1e1e1e;
+  font-size: 0px;
+  transition: left 1s;
+  -webkit-transition: left 1s;
+  padding-bottom: 50px; }
+  .popup.active {
+    left: 50px; }
+  .popup .popup-links {
+    vertical-align: top;
+    display: inline-block;
+    width: calc(50% - 50px);
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase; }
+    .popup .popup-links.left {
+      padding-left: 50px;
+      text-align: left; }
+      .popup .popup-links.left i, .popup .popup-links.left span {
+        cursor: pointer; }
+      .popup .popup-links.left i {
+        margin-right: 20px; }
+    .popup .popup-links.right {
+      padding-right: 50px;
+      text-align: right; }
+      .popup .popup-links.right i, .popup .popup-links.right span {
+        cursor: pointer; }
+      .popup .popup-links.right i {
+        margin-left: 20px; }
+    .popup .popup-links i {
+      position: relative;
+      top: -3px;
+      vertical-align: middle;
+      font-size: 25px; }
+    .popup .popup-links span {
+      vertical-align: middle;
+      line-height: 50px; }
+  .popup .popup-container {
+    display: block;
+    width: 100%;
+    height: calc(100% - 50px);
+    font-size: 0px; }
+    .popup .popup-container .big-photo {
+      vertical-align: top;
+      display: inline-block;
+      margin-left: 50px;
+      width: calc(33% - 50px);
+      height: 100%;
+      background-size: cover; }
+      .popup .popup-container .big-photo img {
+        display: inline-block;
+        width: auto;
+        max-height: 100%; }
+    .popup .popup-container .popup-content {
+      position: relative;
+      display: inline-block;
+      color: black;
+      vertical-align: top;
+      width: calc(66% - 150px);
+      height: 100%;
+      padding-left: 60px; }
+      .popup .popup-container .popup-content h2 {
+        padding-top: 10px;
+        text-align: left; }
+      .popup .popup-container .popup-content h3 {
+        margin-top: 10px;
+        font-weight: 400;
+        text-align: left; }
+      .popup .popup-container .popup-content p {
+        
+        font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 1em;
+        padding-top: 15px;
+        
+        color: black; }
+      
+
+/*# sourceMappingURL=style_gallery.css.map */

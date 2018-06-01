@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Roman Morcinek</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ColorBox CSS -->
+    <link href="css/colorbox.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/lightcase.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+          rel="stylesheet" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic&amp;subset=latin-ext' rel='stylesheet'
+          type='text/css'>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jQuery.loadScroll.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script src="js/CustomColorBoxControl.js"></script>
+    <script>
+        $(function () {
+            $('img').loadScroll(500);
+        });
+    </script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+
+<nav id="sidebar-wrapper">
+
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="#top">Roman Morcinek</a>
+        </li>
+        <hr id="podmenu">
+        <li>
+            <a href="#services">Dovednosti</a>
+        </li>
+        <li>
+            <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="#contact">Kontakt</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1>Roman Morcinek</h1>
+        <hr class="medium">
+        <br>
+        <a href="#services" class="btn btn-dark btn-lg">Dovednosti</a>
+    </div>
+</header>
+<!--
+ <section id="about" class="about">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-12 text-center">
+                 <h2>Jsem umělcem na volné noze.</h2>
+                 <p class="lead">Zabývám se malbou, restaurátorstvím, sochařinou a kamenictvím.</a></p>
+             </div>
+         </div>
+        /.row
+     </div>
+      /.container
+ </section> -->
+
+
+<!-- Services -->
+
+<section id="services" class="services bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Mé dovednosti</h2>
+                <hr class="small">
+                <br>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <img src="img/foto6.png" alt="Malba">
+                            <br>
+                            <br>
+                            <h4>
+                                Malba
+                            </h4>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <img src="img/soch.png" alt="Sochařina">
+                            <br>
+                            <br>
+                            <h4>
+                               Sochařina
+                            </h4>
+
+                            
+                            <!--<a href="img/bg.jpg" data-rel="lightcase" title="Your title">Your link description or thumb</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <img src="img/rest.png" alt="Restaurátorství">
+                            <br>
+                            <br>
+                            <h4>
+                                Restaurátorství
+                            </h4>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <img src="img/kamen.png" alt="Kamenictví">
+                            <br>
+                            <br>
+                            <h4>
+                               Kamenické práce
+                            </h4>
+
+                         
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Callout -->
+<aside class="callout">
+    <div class="text-vertical-center">
+        <h1>Baví mě to, co dělám.</h1>
+    </div>
+</aside>
+
+<section id="portfolio">
+    <div class="container gallery">
+
+        <h2>Mé práce</h2>
+        <hr class="small">
+        <ul id="filters">
+            <li class="filter " data-filter="all">Vše</li>
+            <li class="filter " data-filter=".malba">Malba</li>
+            <li class="filter " data-filter=".kamen">Kamenické práce</li>
+            <li class="filter " data-filter=".soch">Sochařina</li>
+            <li class="filter " data-filter=".rest">Restaurátorství</li>
+        </ul>
+
+        <div id="Container">
+            
+			<div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Večer I</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto1.jpg" alt="Večer I">
+                <div class="hover">Večer I</div>
+            </div>
+			</div>
+			
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Podzimní les</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto2.jpg" alt="Podzimní les">
+                <div class="hover">Podzimní les</div>
+            </div>
+			</div>
+			
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Vzpomínka</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto3.jpg" alt="Vzpomínka">
+                <div class="hover">Vzpomínka</div>
+            </div>			
+			</div>
+			
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Vlna</span>
+			<div class="item mix bc soch"><img data-src="img/galery/soch/1.jpg" alt="Vlna">
+                <div class="hover">Vlna</div>
+            </div>
+			</div>
+			
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Duch v krajině</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto4.jpg" alt="Duch v krajině">
+                <div class="hover">Duch v krajině</div>
+            </div>
+			</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Krajina II</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto5.jpg" alt="Krajina II">
+                <div class="hover">Krajina II</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Krajina III</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto6.jpg" alt="Krajina III">
+                <div class="hover">Krajina III</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Hřbitov</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto7.jpg" alt="Cesta II">
+                <div class="hover">Hřbitov</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Kamenná čepice (gotika)</span>
+			<div class="item mix bc kamen"><img data-src="img/galery/kam/1.jpg" alt="Komín">
+                <div class="hover">Kamenná čepice (gotika)</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Večer II</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto8.jpg" alt="Večer II">
+                <div class="hover">Večer II</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Boží muka</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto9.jpg" alt="Boží muka">
+                <div class="hover">Boží muka</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Podzimní cesta</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto10.jpg" alt="Podzimní cesta">
+                <div class="hover">Podzimní cesta</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Krajina I</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto11.jpg" alt="Krajina I">
+                <div class="hover">Krajina I</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Rybník</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto12.jpg" alt="Rybník">
+                <div class="hover">Rybník</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Madona</span>
+			<div class="item mix bc soch"><img data-src="img/galery/soch/2.jpg" alt="Madona">
+                <div class="hover">Madona</div>
+            </div>
+							</div>
+			
+			  <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Portrét</span>
+			<div class="item mix bc soch"><img data-src="img/galery/soch/3.jpg" alt="Portrét">
+                <div class="hover">Portrét</div>
+            </div>
+							</div>
+			
+			 <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Pieta</span>
+			<div class="item mix bc soch"><img data-src="img/galery/soch/6.jpg" alt="Portrét">
+                <div class="hover">Pieta</div>
+            </div>
+							</div>
+			
+			  <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Portrét</span>
+			<div class="item mix bc soch"><img data-src="img/galery/soch/4.jpg" alt="Portrét">
+                <div class="hover">Portrét</div>
+            </div>
+							</div>
+			
+			  <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Portrét</span>
+			<div class="item mix bc soch"><img data-src="img/galery/soch/5.jpg" alt="Portrét">
+                <div class="hover">Portrét</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Léto</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto13.jpg" alt="Léto">
+                <div class="hover">Léto</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Cesta I</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto14.jpg" alt="Cesta I">
+                <div class="hover">Cesta I</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Kropenka na svěcenou vodu</span>
+			<div class="item mix bc kamen"><img data-src="img/galery/kam/2.jpg" alt="Studánka">
+                <div class="hover">Kropenka na svěcenou vodu</div>
+            </div>
+							</div>
+			
+			 <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Erb</span>
+			<div class="item mix bc kamen"><img data-src="img/galery/kam/3.jpg" alt="Studánka">
+                <div class="hover">Erb</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Traviny</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto15.jpg" alt="Traviny">
+                <div class="hover">Traviny</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Krajina u Turnova</span>
+			<div class="item mix bc malba"><img data-src="img/galery/malba/foto16.jpg" alt="Krajina u Turnova">
+                <div class="hover">Krajina u Turnova</div>
+            </div>
+							</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Panna Maria Rušánská</span>
+			<div class="item mix bc rest"><img data-src="img/galery/rest/1.jpg" alt="Oltář">
+			<div class="hover">Panna Maria Rušánská</div>
+            </div> <!-- nevhodná fotka, vložit výslednou práci -->
+							</div>
+			
+			<div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Náhrobek</span>
+				<div class="item mix bc rest"><img data-src="img/galery/rest/6.jpg" alt="Kamenná nika"><div class="hover">Náhrobek</div>
+				</div>
+			</div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Portrét</span>
+			<div class="item mix bc kamen"><img data-src="img/galery/kam/portret.jpg" alt="Portret">
+			<div class="hover">Portrét</div>
+            </div>
+			</div>
+			
+			<!--
+            Tohle je způsob, jak něco zobrazit v lightboxu, aniž by to interferovalo s čímkoliv jiným.
+            - tahle customizace colorboxu je složená ze struktury tagů tady v indexu, a
+            - - ze souboru js/CustomColorBoxControl.js kterej dela vetsinu pozadovany funkcionality
+            - - z uprav v souboru css/colorbox.css, kde jsou na konci stylopisy veci, ktery tohle tady pouziva
+
+            - Jeden div s class="group-to-show-in-colorBox" == jedna skupina pod sebou zobrazených fotek.
+            - <div class="item *"> se zobrazí v galerii
+            - <div class="item-hidden"> se zobrazí jen v colorboxu ve své skupině
+            - <span class="hidden-title"> umožňuje nastavit nadpis skupiny, zobrazí se až v lightboxu
+            - <div class="hidden-desc"> umožňuje přidat fotce delší popis
+            - je potřeba zachovat zanořenou strukturu
+            - - group
+            - - - group - hidden title
+            - - - group - item
+            - - - group - item - hover
+            - - - group - item - hidden-desc
+            - - - group - item-hidden
+            - - - group - item-hidden - hover
+            - - - group - item-hidden - hidden-desc
+
+
+            - stylopis k temhle custom vecem je uplne na konci souboru css/colorbox.css
+            -->
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Ježíš Kristus – Křepice u Hustopečí</span>
+
+                <div class="item mix bc soch"><img data-src="img/galery/soch/22.jpg" alt="Ježíš">
+
+                    <div class="hover">Ježíš Kristus – Křepice</div>
+                    <div class="hidden-desc">Vypracování sochy
+                    </div>
+                </div>
+
+               <div class="item-hidden"><img data-src="img/galery/soch/jezis/14.JPG" alt="Ježíš">
+					<div class="hover">Hlava</div>
+                    <div class="hidden-desc">
+                    </div>
+                </div>
+				
+				 <div class="item-hidden"><img data-src="img/galery/soch/jezis/16.jpg" alt="Ježíš">
+					<div class="hover">Trup</div>
+                    <div class="hidden-desc">
+                    </div>
+                </div>
+				
+				<div class="item-hidden"><img data-src="img/galery/soch/jezis/2.jpg" alt="Ježíš">
+					<div class="hover">Tělo</div>
+                    <div class="hidden-desc">
+                    </div>
+                </div>
+           
+				<div class="item-hidden"><img data-src="img/galery/soch/jezis/20.jpg" alt="Ježíš">
+					<div class="hover">Realizace</div>
+                    <div class="hidden-desc">
+                    </div>
+                </div>
+			
+			</div>
+            
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Panna Marie</span>
+                    <div class="item mix bc rest"><img data-src="img/galery/rest/5.jpg" alt="Panna Marie">
+                         <div class="hover">Panna Marie</div>
+                    </div>
+             </div>
+
+            <div class="group-to-show-in-colorBox">
+                <span class="hidden-title">Kamenná nika</span>
+				<div class="item mix bc rest"><img data-src="img/galery/rest/nika.jpg" alt="Kamenná nika"><div class="hover">Kamenná nika</div>
+				</div>
+			</div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Map -->
+<section id="contact" class="map">
+    <iframe class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.5881523650587!2d15.629093499999987!3d50.37423359999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e9c7ffe796307%3A0xeb91a28ce2b1d1a7!2zxIxzbC4gYXJtw6FkeSAxMDI3LCA1MDggMDEgSG_FmWljZQ!5e0!3m2!1scs!2scz!4v1428142345418"></iframe>
+    <br/>
+    <!-- <small>
+         <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+     </small>
+     </iframe> -->
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4><strong>Roman Morcinek</strong>
+                </h4>
+
+                <p>ČSA 1027<br>Hořice <br> Česká repubilka</p>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i> (420) 776 832 722</li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i>
+                        <a href="mailto:romamo@seznam.cz">romamo@seznam.cz</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                    </li>
+
+                </ul>
+                <hr class="small">
+                <p class="text-muted">Copyright &copy; Roman Morcinek 2015</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+
+
+<!-- Bootstrap Core JavaScript
+<script src="js/bootstrap.min.js"></script> -->
+
+<!-- Custom Theme JavaScript -->
+
+<script src="js/menu.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/script.js"></script>
+<!-- <script type="text/javascript" src="js/lightcase.min.js"></script>
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) {
+     $('a[data-rel^=lightcase]').lightcase();
+ });
+</script>
+-->
+
+
+</body>
+
+</html>
